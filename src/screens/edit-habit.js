@@ -143,4 +143,4 @@ function EditHabitScreen() {
   );
 }
 
-export { EditHabitScreen };
+export default EditHabitScreen;

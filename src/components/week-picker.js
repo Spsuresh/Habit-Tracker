@@ -102,4 +102,4 @@ function WeekPicker({ selectedDate, onChange }) {
   );
 }
 
-export { WeekPicker };
+export default WeekPicker;

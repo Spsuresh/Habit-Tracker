@@ -31,4 +31,4 @@ function HeatmapCalendar({ data }) {
   );
 }
 
-export { HeatmapCalendar };
+export default HeatmapCalendar;

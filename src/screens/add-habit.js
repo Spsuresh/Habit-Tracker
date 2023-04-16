@@ -118,4 +118,4 @@ function AddHabitScreen() {
   );
 }
 
-export { AddHabitScreen };
+export default AddHabitScreen;

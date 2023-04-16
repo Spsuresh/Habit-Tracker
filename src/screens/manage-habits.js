@@ -31,4 +31,4 @@ function ManageHabitsScreen() {
   );
 }
 
-export { ManageHabitsScreen };
+export default ManageHabitsScreen;

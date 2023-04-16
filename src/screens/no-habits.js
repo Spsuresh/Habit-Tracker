@@ -69,4 +69,4 @@ function NoHabitsScreen() {
   );
 }
 
-export { NoHabitsScreen };
+export default NoHabitsScreen;

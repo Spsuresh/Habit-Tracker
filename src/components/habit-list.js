@@ -147,4 +147,4 @@ function HabitList({ habits }) {
   );
 }
 
-export { HabitList };
+export default HabitList ;

@@ -224,4 +224,4 @@ function SmallPaper({ children }) {
   );
 }
 
-export { DashboardScreen };
+export default DashboardScreen;

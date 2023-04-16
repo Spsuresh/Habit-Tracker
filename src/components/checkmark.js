@@ -85,4 +85,4 @@ Checkmark.propTypes = {
   // disabled: PropTypes.bool,
 };
 
-export { Checkmark };
+export default Checkmark;

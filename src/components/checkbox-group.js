@@ -85,4 +85,4 @@ CheckboxGroup.propTypes = {
   label: PropTypes.string.isRequired,
 };
 
-export { CheckboxGroup };
+export default CheckboxGroup;

@@ -125,4 +125,4 @@ function SignUpScreen() {
   );
 }
 
-export { SignUpScreen };
+export default SignUpScreen;

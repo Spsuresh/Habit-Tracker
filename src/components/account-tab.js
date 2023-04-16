@@ -76,4 +76,4 @@ function AccountTab({ disabled }) {
   );
 }
 
-export { AccountTab };
+export default AccountTab ;

@@ -78,4 +78,4 @@ function ResetPasswordScreen() {
   );
 }
 
-export { ResetPasswordScreen };
+export default ResetPasswordScreen;

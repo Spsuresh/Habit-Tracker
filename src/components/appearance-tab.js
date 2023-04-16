@@ -288,4 +288,4 @@ function AppearanceTab({ disabled }) {
   );
 }
 
-export { AppearanceTab };
+export default AppearanceTab ;

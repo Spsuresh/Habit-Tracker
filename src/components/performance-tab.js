@@ -103,4 +103,4 @@ function PerformanceTab() {
   );
 }
 
-export { PerformanceTab };
+export default PerformanceTab;

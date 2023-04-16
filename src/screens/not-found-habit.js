@@ -63,4 +63,4 @@ function NotFoundHabitScreen() {
   );
 }
 
-export { NotFoundHabitScreen };
+export default NotFoundHabitScreen;

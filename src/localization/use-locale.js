@@ -9,4 +9,4 @@ function useLocale() {
   return context.locale;
 }
 
-export { useLocale };
+export default useLocale;

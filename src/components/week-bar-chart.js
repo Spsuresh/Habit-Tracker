@@ -108,4 +108,4 @@ function WeekBarChart({ checkmarks, dates, goal }) {
   );
 }
 
-export { WeekBarChart };
+export default WeekBarChart;

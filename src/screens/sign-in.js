@@ -119,4 +119,4 @@ function SignInScreen() {
   );
 }
 
-export { SignInScreen };
+export default SignInScreen;

@@ -72,4 +72,4 @@ HabitRow.propTypes = {
   dates: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-export { HabitRow };
+export default HabitRow;

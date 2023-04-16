@@ -10,17 +10,7 @@ import { COMPLETED } from 'data/constants';
  * @property {number} value
  */
 
-/**
- * Calculate score
- *
- * Calculates the score for an array of checkmark values.
- * The perfomance is the count of COMPLETED checkmarks divided
- * by the total count.
- *
- * @param  {number[]} values
- *
- * @returns {number}  floored score between 0 and 100
- */
+ 
 export function calculateScore(values) {
   if (!values.length) return 0;
 
@@ -31,11 +21,7 @@ export function calculateScore(values) {
   return Math.floor((completedCount / values.length) * 100);
 }
 
-/**
- * Create pie chart data
- *
- * @returns an array of data for pie chart
- */
+
 export function createPieChartData(values) {
   const score = calculateScore(values);
 

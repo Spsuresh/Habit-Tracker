@@ -91,4 +91,4 @@ LocaleSelect.propTypes = {
   onLocaleClick: PropTypes.func,
 };
 
-export { LocaleSelect };
+export default LocaleSelect;

@@ -148,4 +148,4 @@ HabitsTable.propTypes = {
   dates: PropTypes.array.isRequired,
 };
 
-export { HabitsTable };
+export default HabitsTable;

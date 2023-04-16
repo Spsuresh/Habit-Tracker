@@ -125,4 +125,4 @@ function GetStartedButton(props) {
   );
 }
 
-export { LandingScreen };
+export default LandingScreen;

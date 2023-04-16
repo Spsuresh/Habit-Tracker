@@ -51,4 +51,4 @@ function ThemeProvider({ children }) {
   );
 }
 
-export { ThemeProvider };
+export default ThemeProvider;
