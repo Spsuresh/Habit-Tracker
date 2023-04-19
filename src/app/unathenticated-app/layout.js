@@ -1,5 +1,8 @@
 import * as React from 'react';
-import { alpha, Box, hexToRgb, useTheme } from '@material-ui/core';
+import  alpha  from '@material-ui/core';
+import Box from '@material-ui/core';
+import hexToRgb from '@material-ui/core';
+import useTheme  from '@material-ui/core';
 import hero from 'images/hero.jpg';
 
 /**
@@ -52,4 +55,4 @@ function BackgroundImage({ children }) {
   );
 }
 
-export { Layout };
+export default Layout;

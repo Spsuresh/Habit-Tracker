@@ -1,9 +1,13 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { Checkmark } from 'components/checkmark';
-import { makeStyles, TableCell, TableRow, Typography } from '@material-ui/core';
-import { getDay, parseISO } from 'date-fns';
-import { EMPTY } from 'data/constants';
+import  Checkmark  from 'components/checkmark';
+import  makeStyles from '@material-ui/core'; 
+import TableCell  from '@material-ui/core'; 
+import TableRow  from '@material-ui/core'; 
+import Typography from '@material-ui/core';
+import getDay from 'date-fns';
+import parseISO  from 'date-fns';
+import EMPTY from 'data/constants';
 
 // Styles
 const useStyles = makeStyles((theme) => ({

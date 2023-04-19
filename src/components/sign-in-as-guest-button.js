@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Incognito as IncognitoIcon } from 'mdi-material-ui';
-import { AuthProviderButton } from './auth-providers-list';
-import { useTheme } from '@material-ui/core';
-import { blueGrey } from '@material-ui/core/colors';
+import AuthProviderButton  from './auth-providers-list';
+import useTheme from '@material-ui/core';
+import blueGrey  from '@material-ui/core/colors';
 
 function SignInAsGuestButton({ label, ...props }) {
   const { palette } = useTheme();

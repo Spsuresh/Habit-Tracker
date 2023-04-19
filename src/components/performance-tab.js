@@ -1,20 +1,18 @@
 import * as React from 'react';
-import { useUser } from 'context/user-context';
-import {
-  Box,
-  FormControl,
-  InputLabel,
-  List,
-  ListItem,
-  ListItemIcon,
-  MenuItem,
-  Select,
-  useMediaQuery,
-  useTheme,
-} from '@material-ui/core';
+import  useUser  from 'context/user-context';
+import  Box from '@material-ui/core';
+import   FormControl from '@material-ui/core';
+import   InputLabel from '@material-ui/core';
+import   List from '@material-ui/core';
+import   ListItem from '@material-ui/core';
+import   ListItemIcon from '@material-ui/core';
+import   MenuItem from '@material-ui/core';
+import   Select from '@material-ui/core';
+import   useMediaQuery from '@material-ui/core';
+import   useTheme from '@material-ui/core';
 import { TrackChanges as TrackChangesIcon } from '@material-ui/icons';
-import { useUpdatePerformanceGoal } from 'api/user-data';
-import { useTranslation } from 'translations';
+import  useUpdatePerformanceGoal  from 'api/user-data';
+import   useTranslation  from 'translations';
 
 // Create array of available values  [5, 10, ..., 100]
 const performanceGoalValues = Array.from(Array(20)).map((_, i) => {

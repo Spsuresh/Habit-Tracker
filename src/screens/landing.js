@@ -1,14 +1,12 @@
-import {
-  Box,
-  Fab,
-  hexToRgb,
-  alpha,
-  Typography,
-  useTheme,
-} from '@material-ui/core';
+import Box from '@material-ui/core';
+import  Fab from '@material-ui/core';
+import  hexToRgb from '@material-ui/core';
+import  alpha from '@material-ui/core';
+import  Typography from '@material-ui/core';
+import  useTheme  from '@material-ui/core';
 import { Link as RouterLink } from 'react-router-dom';
-import { FaQuoteLeft } from 'react-icons/fa';
-import { useTranslation } from 'translations';
+import  FaQuoteLeft  from 'react-icons/fa';
+import  useTranslation  from 'translations';
 import hero from 'images/hero.jpg';
 
 function LandingScreen() {

@@ -1,42 +1,40 @@
 import * as React from 'react';
-import { useQueryClient } from 'react-query';
-import { ErrorBoundary } from 'react-error-boundary';
-import { Route, Routes } from 'react-router-dom';
-import { Divider, List, Toolbar, Typography } from '@material-ui/core';
-import {
-  Add as AddIcon,
-  Dashboard as DashboardIcon,
-  ExitToApp as ExitIcon,
-  List as ListIcon,
-  Settings as SettingsIcon,
-} from '@material-ui/icons';
-
+import useQueryClient  from 'react-query';
+import  ErrorBoundary  from 'react-error-boundary';
+import Route from 'react-router-dom';
+import Routes  from 'react-router-dom';
+import  Divider from '@material-ui/core';
+import  List from '@material-ui/core';
+import   Toolbar from '@material-ui/core';
+import  Typography from '@material-ui/core';
+import {Add as AddIcon,
+        Dashboard as DashboardIcon,
+        ExitToApp as ExitIcon,
+        List as ListIcon,
+      Settings as SettingsIcon,} from '@material-ui/icons';
 import * as guestData from 'data/guest';
-
-import { AddHabitScreen } from 'screens/add-habit';
-import { DashboardScreen } from 'screens/dashboard';
-import { EditHabitScreen } from 'screens/edit-habit';
-import { ManageHabitsScreen } from 'screens/manage-habits';
-import { NotFoundScreen } from 'screens/not-found';
-import { UserSettingsScreen } from 'screens/user-settings';
-
-import { FullPageErrorFallback, ErrorFallback } from 'components/lib';
-import { LocaleSelect } from 'components/locale-select';
-import { GithubRepoLink } from 'components/github-repo-link';
-
-import { useTranslation } from 'translations';
-import { useAuth } from 'context/auth-context';
-import { useDialog } from 'context/dialog-context';
-import {
-  useUpdateLocaleCode,
-  useUpdateUserData,
-  useDeleteUserData,
-} from 'api/user-data';
-
-import { Drawer, DrawerButton, DrawerLink } from './drawer';
-import { Layout } from './layout';
-import { Navbar } from './navbar';
-import { MainContent } from './main-content';
+import  AddHabitScreen  from '.screens/add-habit';
+import  DashboardScreen  from '.screens/dashboard';
+import EditHabitScreen  from './screens/edit-habit';
+import ManageHabitsScreen  from './screens/manage-habits';
+import  NotFoundScreen  from './screens/not-found';
+import  UserSettingsScreen  from './screens/user-settings';
+import  FullPageErrorFallback from './components/lib';
+import ErrorFallback from './components/lib';
+import  LocaleSelect  from './components/locale-select';
+import  GithubRepoLink  from './components/github-repo-link';
+import useTranslation  from './translations';
+import  useAuth  from './context/auth-context';
+import  useDialog  from './context/dialog-context';
+import  useUpdateLocaleCode from './api/user-data';
+import useUpdateUserData from './api/user-data'; 
+import useDeleteUserData from './api/user-data';
+import  Drawer  from './drawer';
+import DrawerButton from  './drawer';
+import DrawerLink from './drawer';
+import Layout  from './layout';
+import  Navbar  from './navbar';
+import  MainContent from './main-content';
 
 /**
  * Authenticated App
@@ -173,4 +171,4 @@ function AuthenticatedApp() {
   );
 }
 
-export { AuthenticatedApp };
+export default AuthenticatedApp ;

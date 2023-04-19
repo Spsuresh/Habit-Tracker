@@ -1,7 +1,10 @@
 import * as React from 'react';
-import { AppBar, IconButton, makeStyles, Toolbar } from '@material-ui/core';
+import  AppBar from '@material-ui/core';
+import IconButton from '@material-ui/core';
+import makeStyles from '@material-ui/core'; 
+import Toolbar from '@material-ui/core';
 import { Menu as MenuIcon } from '@material-ui/icons';
-import { useDrawer } from './drawer-context';
+import  useDrawer  from './drawer-context';
 
 const useStyles = makeStyles((theme) => ({
   toolbar: {
@@ -39,4 +42,4 @@ function Navbar({ children }) {
   );
 }
 
-export { Navbar };
+export default Navbar;

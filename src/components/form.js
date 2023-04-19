@@ -1,15 +1,13 @@
-import { LoadingButton } from '@material-ui/lab';
+import  LoadingButton  from '@material-ui/lab';
 import { Link as RouterLink } from 'react-router-dom';
-import {
-  Divider,
-  Typography,
-  FormHelperText,
-  Box,
-  Paper,
-  Link,
-  useTheme,
-} from '@material-ui/core';
-import { useTranslation } from 'translations';
+import  Divider from 'data/constants';
+import  Typography from 'data/constants';
+import  FormHelperText from 'data/constants';
+import   Box from 'data/constants';
+import  Paper from 'data/constants';
+import Link from 'data/constants';
+import useTheme from '@material-ui/core';
+import  useTranslation  from 'translations';
 
 /**
  * Main form wrapper component

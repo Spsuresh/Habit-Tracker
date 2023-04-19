@@ -1,4 +1,4 @@
-import { Box } from '@material-ui/core';
+import  Box  from '@material-ui/core';
 
 /**
  * Main content wrapper
@@ -21,4 +21,4 @@ function MainContent({ children }) {
   );
 }
 
-export { MainContent };
+export default MainContent;

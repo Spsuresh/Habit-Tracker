@@ -1,5 +1,5 @@
 import React from 'react';
-import { ResponsiveLine } from '@nivo/line';
+import  ResponsiveLine  from '@nivo/line';
 // const curveOptions  = ['linear', 'monotoneX', 'step', 'stepBefore', 'stepAfter']
 export function LineChart({ data, height }) {
   return (

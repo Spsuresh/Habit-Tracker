@@ -1,5 +1,8 @@
 import * as React from 'react';
-import { enGB, enUS, es, pl } from 'date-fns/locale';
+import  enGB from 'date-fns/locale'
+import  enUS from 'date-fns/locale'
+import  es from 'date-fns/locale'
+import  pl from 'date-fns/locale';
 import { ReactComponent as PolandFlagSvg } from 'icons/poland.svg';
 import { ReactComponent as SpainFlagSvg } from 'icons/spain.svg';
 import { ReactComponent as UnitedKingdomFlagSvg } from 'icons/united-kingdom.svg';

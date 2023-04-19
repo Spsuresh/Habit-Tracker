@@ -1,6 +1,6 @@
-import { useFirebase } from 'context/firebase-context';
-import { useAuth } from 'context/auth-context';
-import { getColor } from 'theme';
+import  useFirebase  from 'context/firebase-context';
+import  useAuth  from 'context/auth-context';
+import  getColor  from 'theme';
 
 /**
  * Use update theme hook

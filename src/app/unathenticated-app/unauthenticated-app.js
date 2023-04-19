@@ -23,18 +23,19 @@ import {
   MobileMenuToggler,
 } from 'components/mobile-menu';
 
-import { Copyright } from 'components/copyright';
-import { LocaleSelect } from 'components/locale-select';
-import { LandingScreen } from 'screens/landing';
-import { ResetPasswordScreen } from 'screens/reset-password';
-import { SignInScreen } from 'screens/sign-in';
-import { SignUpScreen } from 'screens/sign-up';
-import { useTranslation } from 'translations';
-import { AppTitle } from './app-title';
-import { Footer } from './footer';
-import { Layout } from './layout';
-import { MainContent } from './main-content';
-import { Navbar, NavbarStartItem } from './navbar';
+import  Copyright  from 'components/copyright';
+import  LocaleSelect  from 'components/locale-select';
+import  LandingScreen  from 'screens/landing';
+import  ResetPasswordScreen  from 'screens/reset-password';
+import SignInScreen  from 'screens/sign-in';
+import  SignUpScreen  from 'screens/sign-up';
+import  useTranslation  from 'translations';
+import  AppTitle  from './app-title';
+import  Footer  from './footer';
+import  Layout  from './layout';
+import  MainContent  from './main-content';
+import  Navbar from './navbar'; 
+import NavbarStartItem  from './navbar';
 
 const githubProps = {
   target: '_blank',
@@ -171,4 +172,4 @@ function UnathenticatedApp() {
   );
 }
 
-export { UnathenticatedApp };
+export default UnathenticatedApp;

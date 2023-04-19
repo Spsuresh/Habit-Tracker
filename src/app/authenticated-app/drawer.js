@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Link as RouterLink, useMatch } from 'react-router-dom';
+import { Link as RouterLink }from 'react-router-dom';
+import useMatch from 'react-router-dom';
 import {
   Drawer as MuiDrawer,
   Hidden,
@@ -8,7 +9,7 @@ import {
   ListItemText,
   makeStyles,
 } from '@material-ui/core';
-import { useDrawer } from './drawer-context';
+import  useDrawer from './drawer-context';
 
 const DRAWER_WIDTH = 240;
 

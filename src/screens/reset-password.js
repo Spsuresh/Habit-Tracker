@@ -1,21 +1,19 @@
-import { yupResolver } from '@hookform/resolvers/yup';
-import { useForm } from 'react-hook-form';
-import { TextField } from '@material-ui/core';
-import { useAuth } from 'context/auth-context';
-import { useSnackbar } from 'context/snackbar-context';
-import { resetPasswordSchema } from 'data/constraints';
-import { useAsync } from 'utils/hooks';
-import {
-  Form,
-  FormBody,
-  FormButton,
-  FormErrorText,
-  FormHeader,
-  FormLink,
-  FormPrimaryText,
-  FormSecondaryText,
-} from 'components/form';
-import { useTranslation } from 'translations';
+import  yupResolver  from '@hookform/resolvers/yup';
+import  useForm  from 'react-hook-form';
+import  TextField  from '@material-ui/core';
+import  useAuth  from 'context/auth-context';
+import  useSnackbar from 'context/snackbar-context';
+import  resetPasswordSchema  from 'data/constraints';
+import  useAsync  from 'utils/hooks';
+import  Form from 'components/form';
+import  FormBody from 'components/form';
+import  FormButton from 'components/form';
+import  FormErrorText from 'components/form';
+import  FormHeader from 'components/form';
+import  FormLink from 'components/form';
+import  FormPrimaryText from 'components/form';
+import  FormSecondaryText from 'components/form';
+import  useTranslation  from 'translations';
 
 /**
  * Reset Password Screen

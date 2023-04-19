@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { ResponsiveBar } from '@nivo/bar';
-import { useTheme } from '@material-ui/core';
-import { countBy } from 'lodash';
-import { format, parseISO } from 'date-fns';
+import  ResponsiveBar from '@nivo/bar';
+import  useTheme  from '@material-ui/core';
+import countBy  from 'lodash';
+import  format from 'date-fns';
+import parseISO  from 'date-fns';
 import { COMPLETED, FAILED } from 'data/constants';
-import { useLocale } from 'localization';
+import useLocale  from 'localization';
 
 function WeekBarChart({ checkmarks, dates, goal }) {
   // Style

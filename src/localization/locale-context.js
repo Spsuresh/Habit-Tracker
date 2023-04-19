@@ -1,8 +1,11 @@
 import * as React from 'react';
 import AdapterDateFns from '@material-ui/lab/AdapterDateFns';
 import LocalizationProvider from '@material-ui/lab/LocalizationProvider';
-import { addDays, format, startOfWeek } from 'date-fns';
-import { defaultLocale, locales } from './locales';
+import addDays from 'date-fns';
+import format from 'date-fns';
+import startOfWeek  from 'date-fns';
+import defaultLocale  from './locales';
+import locales  from './locales';
 
 /**
  * Locale provider

@@ -1,14 +1,12 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { Controller } from 'react-hook-form';
-import {
-  Checkbox,
-  FormControl,
-  FormControlLabel,
-  FormGroup,
-  FormLabel,
-  makeStyles,
-} from '@material-ui/core';
+import  Controller  from 'react-hook-form';
+import Checkbox from '@material-ui/core';
+import  FormControl from '@material-ui/core';
+import   FormControlLabel from '@material-ui/core';
+import  FormGroup from '@material-ui/core';
+import  FormLabel from '@material-ui/core';
+import   makeStyles from '@material-ui/core';
 
 // Styles
 const useStyles = makeStyles({

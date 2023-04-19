@@ -1,4 +1,4 @@
-import { ResponsiveBar } from '@nivo/bar';
+import  ResponsiveBar  from '@nivo/bar';
 
 export function BarChart({ data, keys, indexBy, maxValue }) {
   return (

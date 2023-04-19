@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import App from '../app';
-import AppProviders  from '../context';
+import App from './app/app';
+import AppProviders  from './context';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/@fontsource/roboto/300.css';
 import '../node_modules/@fontsource/roboto/400.css';

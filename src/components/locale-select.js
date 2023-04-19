@@ -1,17 +1,16 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { locales, useLocale } from 'localization';
-import {
-  Menu,
-  MenuItem,
-  ListItemIcon,
-  SvgIcon,
-  Typography,
-  IconButton,
-  Tooltip,
-} from '@material-ui/core';
-import { useTranslation } from 'translations';
-import { MobileMenuItem } from 'components/mobile-menu';
+import locales from 'localization';
+import useLocale  from 'localization';
+import Menu from '@material-ui/core';
+import  MenuItem from '@material-ui/core';
+import ListItemIcon from '@material-ui/core';
+import  SvgIcon from '@material-ui/core';
+import  Typography from '@material-ui/core';
+import  IconButton from '@material-ui/core';
+import  Tooltip from '@material-ui/core';
+import  useTranslation from 'translations';
+import  MobileMenuItem  from 'components/mobile-menu';
 import TranslateIcon from '@material-ui/icons/Translate';
 
 function LocaleSelect({ variant = 'icon', onLocaleClick = () => {} }) {

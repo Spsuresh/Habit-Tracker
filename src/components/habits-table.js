@@ -1,21 +1,21 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { format, isToday, parseISO } from 'date-fns';
-import { getComparator } from 'utils/misc';
-import { HabitRow } from './habit-row';
-import { useLocale } from 'localization';
-import { useTranslation } from 'translations';
-import {
-  makeStyles,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  TableSortLabel,
-  Typography,
-} from '@material-ui/core';
+import  format from 'date-fns';
+import isToday from 'date-fns';
+import parseISO  from 'date-fns';
+import getComparator from 'utils/misc';
+import  HabitRow  from './habit-row';
+import  useLocale  from 'localization';
+import useTranslation  from 'translations';
+import  makeStyles from '@material-ui/core';
+import  Table from '@material-ui/core';
+import TableBody from '@material-ui/core';
+import TableCell from '@material-ui/core';
+import   TableContainer from '@material-ui/core';
+import TableHead from '@material-ui/core';
+import  TableRow from '@material-ui/core';
+import TableSortLabel from '@material-ui/core';
+import  Typography from '@material-ui/core';
 
 // Styles
 const useStyles = makeStyles((theme) => ({
