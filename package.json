@@ -80,8 +80,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@material-ui/codemod": "^5.0.0-alpha.17"
+    
   }
+
 }
