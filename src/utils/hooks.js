@@ -90,4 +90,4 @@ function useAsync(initialState) {
   };
 }
 
-export default useAsync ;
+export { useAsync };

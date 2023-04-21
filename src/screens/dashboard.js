@@ -1,24 +1,21 @@
 import * as React from 'react';
-import  useCheckmarksQuery  from 'api/checkmarks';
-import  useHabitsQuery from 'api/habits';
-import  NoHabitsScreen  from 'screens/no-habits';
-import  useUser  from 'context/user-context';
-import  useLocale from 'localization';
-import  WeekBarChart from 'components/week-bar-chart';
-import  HabitsTable  from 'components/habits-table';
-import  FullPageErrorFallback from 'components/lib';
-import  FullPageSpinner  from 'components/lib';
-import  PerformancePanel from 'components/performance-panel';
-import  WeekPicker  from 'components/week-picker';
-import  Box from 'components/lib';
-import   Container from 'components/lib';
-import   Grid from 'components/lib'; 
-import   Hidden from 'components/lib';
-import   Paper  from 'components/lib';
-import eachDayOfInterval from 'date-fns';
-import endOfWeek from 'date-fns';
-import  lightFormat from 'date-fns';
- import  startOfWeek from 'date-fns';
+import { useCheckmarksQuery } from 'api/checkmarks';
+import { useHabitsQuery } from 'api/habits';
+import { NoHabitsScreen } from 'screens/no-habits';
+import { useUser } from 'context/user-context';
+import { useLocale } from 'localization';
+import { WeekBarChart } from 'components/week-bar-chart';
+import { HabitsTable } from 'components/habits-table';
+import { FullPageErrorFallback, FullPageSpinner } from 'components/lib';
+import { PerformancePanel } from 'components/performance-panel';
+import { WeekPicker } from 'components/week-picker';
+import { Box, Container, Grid, Hidden, Paper } from '@material-ui/core';
+import {
+  eachDayOfInterval,
+  endOfWeek,
+  lightFormat,
+  startOfWeek,
+} from 'date-fns';
 
 /**
  * Dashboard Screen
@@ -227,4 +224,4 @@ function SmallPaper({ children }) {
   );
 }
 
-export default DashboardScreen;
+export { DashboardScreen };

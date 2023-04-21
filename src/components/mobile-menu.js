@@ -1,7 +1,5 @@
 import * as React from 'react';
-import  IconButton from '@material-ui/core';
-import Menu from '@material-ui/core'; 
-import MenuItem  from '@material-ui/core';
+import { IconButton, Menu, MenuItem } from '@material-ui/core';
 import { MoreVert as MoreVertIcon } from '@material-ui/icons';
 
 const MobileMenuContext = React.createContext();

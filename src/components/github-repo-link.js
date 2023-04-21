@@ -1,11 +1,8 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import  IconButton from '@material-ui/core';
-import Link from '@material-ui/core'; 
-import MenuItem from '@material-ui/core';
-import Tooltip from '@material-ui/core';
+import { IconButton, Link, MenuItem, Tooltip } from '@material-ui/core';
 import { GitHub as GitHubIcon } from '@material-ui/icons';
-import  useTranslation  from 'translations';
+import { useTranslation } from 'translations';
 
 /**
  * Github Repo Link
@@ -14,7 +11,7 @@ import  useTranslation  from 'translations';
 const commonProps = {
   target: '_blank',
   rel: 'noopener noreferrer',
-  href: 'https://github.com/Spsuresh/habit-Tracker',
+  href: 'https://github.com/sitek94/habit-tracker',
 };
 
 function GithubRepoLink({ variant = 'icon', ...props }) {
@@ -46,4 +43,4 @@ GithubRepoLink.propTypes = {
   variant: PropTypes.oneOf(['icon', 'item']),
 };
 
-export default GithubRepoLink;
+export { GithubRepoLink };

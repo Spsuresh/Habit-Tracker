@@ -1,8 +1,6 @@
-import useAuth  from 'context/auth-context';
-import  useFirebase  from 'context/firebase-context';
-import useQueryClient  from 'react-query';
-import  useQuery from 'react-query';
-import useMutation  from 'react-query';
+import { useAuth } from 'context/auth-context';
+import { useFirebase } from 'context/firebase-context';
+import { useQueryClient, useQuery, useMutation } from 'react-query';
 
 /**
  * Use add habit mutation

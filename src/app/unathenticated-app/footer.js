@@ -1,6 +1,6 @@
 import * as React from 'react';
-import  Box  from '@material-ui/core';
-import  useMatch  from 'react-router';
+import { Box } from '@material-ui/core';
+import { useMatch } from 'react-router';
 
 const landing = {
   color: 'common.white',
@@ -34,4 +34,4 @@ function Footer({ children }) {
   );
 }
 
-export default Footer;
+export { Footer };

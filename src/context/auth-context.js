@@ -1,10 +1,9 @@
 import * as React from 'react';
-import  useFirebase  from './firebase-context';
-import  useAsync from 'utils/hooks';
-import  FullPageSpinner from 'components/lib';
-import FullPageErrorFallback from 'components/lib';
-import  useNavigate from 'react-router';
-import  useTheme  from '@material-ui/core';
+import { useFirebase } from './firebase-context';
+import { useAsync } from 'utils/hooks';
+import { FullPageSpinner, FullPageErrorFallback } from 'components/lib';
+import { useNavigate } from 'react-router';
+import { useTheme } from '@material-ui/core';
 
 const AuthContext = React.createContext();
 AuthContext.displayName = 'AuthContext';

@@ -1,13 +1,12 @@
 import * as React from 'react';
-import  useForm  from 'react-hook-form';
-import  yupResolver  from '@hookform/resolvers/yup';
-import habitSchema  from 'data/constraints';
-import  TextField  from '@material-ui/core';
-import  CheckboxGroup  from 'components/checkbox-group';
-import  FullPageSpinner  from 'components/lib';
-import  useSnackbar  from 'context/snackbar-context';
-import  useAddHabitMutation from 'api/habits';
-import useHabitsQuery  from 'api/habits';
+import { useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { habitSchema } from 'data/constraints';
+import { TextField } from '@material-ui/core';
+import { CheckboxGroup } from 'components/checkbox-group';
+import { FullPageSpinner } from 'components/lib';
+import { useSnackbar } from 'context/snackbar-context';
+import { useAddHabitMutation, useHabitsQuery } from 'api/habits';
 import {
   Form,
   FormBody,
@@ -119,4 +118,4 @@ function AddHabitScreen() {
   );
 }
 
-export default AddHabitScreen;
+export { AddHabitScreen };

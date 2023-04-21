@@ -1,18 +1,10 @@
 import * as React from 'react';
-import  Box from '@material-ui/core';
-import Divider from '@material-ui/core';
-import Grid from '@material-ui/core';
-import Typography from '@material-ui/core';
-import useTheme from '@material-ui/core';
+import { Box, Divider, Grid, Typography, useTheme } from '@material-ui/core';
 import { Done as DoneIcon } from '@material-ui/icons';
-import Pie  from '@nivo/pie';
-import calculateScore from './helpers';
-import  createPieChartData from './helpers';
-import  useTranslation  from 'translations';
-import  getWeek from 'date-fns';
-import isThisWeek from 'date-fns';
-import isToday from 'date-fns'; 
-import parseISO  from 'date-fns';
+import { Pie } from '@nivo/pie';
+import { calculateScore, createPieChartData } from './helpers';
+import { useTranslation } from 'translations';
+import { getWeek, isThisWeek, isToday, parseISO } from 'date-fns';
 
 function PerformancePanel({ checkmarks, goal }) {
   const t = useTranslation();
@@ -190,4 +182,4 @@ function PieChart({ data }) {
   );
 }
 
-export  default PerformancePanel ;
+export { PerformancePanel };

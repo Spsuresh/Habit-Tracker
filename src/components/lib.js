@@ -1,6 +1,4 @@
-import  Box from '@material-ui/core';
-import  CircularProgress from '@material-ui/core';
- import  Typography  from '@material-ui/core';
+import { Box, CircularProgress, Typography } from '@material-ui/core';
 import { ReactComponent as BugFixingSvg } from 'images/bug-fixing.svg';
 import PropTypes from 'prop-types';
 

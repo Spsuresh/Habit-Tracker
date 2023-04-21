@@ -1,17 +1,19 @@
 import * as React from 'react';
 import { DeleteForever as DeleteForeverIcon } from '@material-ui/icons';
-import  useDeleteUserData  from '../api/user-data';
-import  useAuth  from '../context/auth-context';
-import  useDialog  from '../context/dialog-context';
-import  useSnackbar  from '../context/snackbar-context';
-import  useTranslation from '../translations';
-import  Button from '@material-ui/core';
-import   Hidden from '@material-ui/core';
-import   List from '@material-ui/core';
-import   ListItem from '@material-ui/core';
-import   ListItemIcon from '@material-ui/core';
-import   ListItemSecondaryAction from '@material-ui/core';
-import   ListItemText  from '@material-ui/core';
+import { useDeleteUserData } from 'api/user-data';
+import { useAuth } from 'context/auth-context';
+import { useDialog } from 'context/dialog-context';
+import { useSnackbar } from 'context/snackbar-context';
+import { useTranslation } from 'translations';
+import {
+  Button,
+  Hidden,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemSecondaryAction,
+  ListItemText,
+} from '@material-ui/core';
 
 /**
  * Account Tab
@@ -74,4 +76,4 @@ function AccountTab({ disabled }) {
   );
 }
 
-export default AccountTab ;
+export { AccountTab };

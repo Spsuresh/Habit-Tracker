@@ -1,6 +1,6 @@
 import * as React from 'react';
-import  Box  from '@material-ui/core';
-import  DrawerProvider from './drawer-context';
+import { Box } from '@material-ui/core';
+import { DrawerProvider } from './drawer-context';
 
 /**
  * Layout
@@ -13,4 +13,4 @@ function Layout({ children }) {
   );
 }
 
-export default Layout;
+export { Layout };

@@ -1,26 +1,28 @@
 import * as React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import Box from '@material-ui/core';
-import Chip from '@material-ui/core';
-import IconButton from '@material-ui/core';
-import List from '@material-ui/core';
-import ListItem from '@material-ui/core';
-//import  ListItemIcon from '@material-ui/core';
-import ListItemText from '@material-ui/core';
-import Tooltip from '@material-ui/core';
-import useMediaQuery from '@material-ui/core';
-import useTheme from '@material-ui/core';
+import {
+  Box,
+  Chip,
+  IconButton,
+  List,
+  ListItem,
+  // ListItemIcon,
+  ListItemText,
+  Tooltip,
+  useMediaQuery,
+  useTheme,
+} from '@material-ui/core';
 import {
   Delete as DeleteIcon,
   Edit as EditIcon,
   // Folder as FolderIcon,
 } from '@material-ui/icons';
 
-import useDialog from 'context/dialog-context';
-import  useSnackbar from 'context/snackbar-context';
-import useDeleteHabitMutationMutation  from 'api/habits';
-import  useLocale from 'localization';
-import useTranslation  from 'translations';
+import { useDialog } from 'context/dialog-context';
+import { useSnackbar } from 'context/snackbar-context';
+import { useDeleteHabitMutationMutation } from 'api/habits';
+import { useLocale } from 'localization';
+import { useTranslation } from 'translations';
 
 function HabitListItem({ habit }) {
   const t = useTranslation();
@@ -145,4 +147,4 @@ function HabitList({ habits }) {
   );
 }
 
-export default HabitList ;
+export { HabitList };

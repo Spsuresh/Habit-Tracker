@@ -1,17 +1,16 @@
-import  createContext from 'react';
-import useContext from 'react'; 
-import useState from 'react';
-import  useRef  from 'react';
+import { createContext, useContext, useState, useRef } from 'react';
 
-import  React from 'react';
-import  Button from '@material-ui/core';
-import  Dialog from '@material-ui/core';
-import  DialogActions from '@material-ui/core';
-import  DialogContent from '@material-ui/core';
-import  DialogContentText from '@material-ui/core';
-import  DialogTitle from '@material-ui/core';
+import React from 'react';
+import {
+  Button,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+} from '@material-ui/core';
 
-import  useTranslation from 'translations';
+import { useTranslation } from 'translations';
 
 // Translations
 const translations = {

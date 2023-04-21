@@ -1,22 +1,23 @@
 import * as React from 'react';
-import  isDefaultTheme  from 'theme';
-import colors  from 'theme';
-import Box from '@material-ui/core';
-import  Button from '@material-ui/core';
-import  Checkbox from '@material-ui/core';
-import FormControl from '@material-ui/core';
-import  InputLabel from '@material-ui/core';
-import  List from '@material-ui/core';
-import  ListItem from '@material-ui/core';
-import  ListItemIcon from '@material-ui/core';
-import  ListItemSecondaryAction from '@material-ui/core';
-import  ListItemText from '@material-ui/core';
-import  MenuItem from '@material-ui/core';
-import  Select from '@material-ui/core';
-import  useTheme from '@material-ui/core';
-import  Switch from '@material-ui/core';
-import Divider from '@material-ui/core';
-import  useMediaQuery from '@material-ui/core';
+import { isDefaultTheme, colors } from 'theme';
+import {
+  Box,
+  Button,
+  Checkbox,
+  FormControl,
+  InputLabel,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemSecondaryAction,
+  ListItemText,
+  MenuItem,
+  Select,
+  useTheme,
+  Switch,
+  Divider,
+  useMediaQuery,
+} from '@material-ui/core';
 import {
   FiberManualRecord as FiberManualRecordIcon,
   Brightness4 as Brightness4Icon,
@@ -287,4 +288,4 @@ function AppearanceTab({ disabled }) {
   );
 }
 
-export default AppearanceTab ;
+export { AppearanceTab };

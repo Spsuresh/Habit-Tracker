@@ -1,4 +1,4 @@
-import  ResponsiveCalendar  from '@nivo/calendar';
+import { ResponsiveCalendar } from '@nivo/calendar';
 
 function HeatmapCalendar({ data }) {
   return (
@@ -31,4 +31,4 @@ function HeatmapCalendar({ data }) {
   );
 }
 
-export default HeatmapCalendar;
+export { HeatmapCalendar };

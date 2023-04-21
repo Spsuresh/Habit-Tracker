@@ -30,4 +30,4 @@ function MainContent({ children }) {
   );
 }
 
-export default MainContent;
+export { MainContent };

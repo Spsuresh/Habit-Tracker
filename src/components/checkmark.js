@@ -1,15 +1,13 @@
 import * as React from 'react';
-import  IconButton  from '@material-ui/core';
+import { IconButton } from '@material-ui/core';
 import {
   CheckBox as CompletedCheckmarkIcon,
   CheckBoxOutlineBlank as EmptyCheckmarkIcon,
   IndeterminateCheckBox as FailedCheckmarkIcon,
 } from '@material-ui/icons';
-import  useUpdateCheckmarkInDbMutate from 'api/checkmarks';
-import  COMPLETED from 'data/constants';
-import EMPTY from 'data/constants';
-import  FAILED  from 'data/constants';
-import  debounce  from 'lodash';
+import { useUpdateCheckmarkInDbMutate } from 'api/checkmarks';
+import { COMPLETED, EMPTY, FAILED } from 'data/constants';
+import { debounce } from 'lodash';
 
 const variants = {
   completed: {
@@ -87,4 +85,4 @@ Checkmark.propTypes = {
   // disabled: PropTypes.bool,
 };
 
-export default Checkmark;
+export { Checkmark };

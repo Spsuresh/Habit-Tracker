@@ -1,7 +1,4 @@
-import object from 'yup';
-import string from 'yup';
-import array from 'yup';
-import ref  from 'yup';
+import { object, string, array, ref } from 'yup';
 
 /**
  * HABIT

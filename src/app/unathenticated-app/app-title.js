@@ -1,7 +1,5 @@
 import * as React from 'react';
-import  Box from '@material-ui/core';
-import  Button from '@material-ui/core';
-import  Typography  from '@material-ui/core';
+import { Box, Button, Typography } from '@material-ui/core';
 import { Link as RouterLink } from 'react-router-dom';
 
 /**
@@ -22,4 +20,4 @@ function AppTitle() {
   );
 }
 
-export default AppTitle;
+export { AppTitle };

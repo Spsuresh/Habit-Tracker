@@ -1,10 +1,8 @@
 import { Link as RouterLink } from 'react-router-dom';
-import  Fab from '@material-ui/core';
-import Box from '@material-ui/core';
-import  Typography  from '@material-ui/core';
+import { Fab, Box, Typography } from '@material-ui/core';
 import { Home as HomeIcon } from '@material-ui/icons';
 import { ReactComponent as HelloDarkness } from 'images/hello-darkness.svg';
-import  useTranslation  from 'translations';
+import { useTranslation } from 'translations';
 
 /**
  * Not Found Screen
@@ -64,4 +62,4 @@ function NotFoundScreen() {
   );
 }
 
-export default NotFoundScreen;
+export { NotFoundScreen };

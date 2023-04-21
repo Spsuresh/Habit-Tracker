@@ -1,14 +1,12 @@
 import * as React from 'react';
-import FullPageSpinner from 'components/lib';
-import FullPageErrorFallback  from 'components/lib';
-import  useFirebase  from './firebase-context';
-import  useAsync  from 'utils/hooks'
-import  useAuth  from './auth-context';
-import  defaultLocale  from 'localization/locales';
-import  createTheme from 'theme';
-import defaultThemeConstants  from 'theme';
-import  useTheme  from '@material-ui/core';
-import  useLocale  from 'localization';
+import { FullPageSpinner, FullPageErrorFallback } from 'components/lib';
+import { useFirebase } from './firebase-context';
+import { useAsync } from 'utils/hooks';
+import { useAuth } from './auth-context';
+import { defaultLocale } from 'localization/locales';
+import { createTheme, defaultThemeConstants } from 'theme';
+import { useTheme } from '@material-ui/core';
+import { useLocale } from 'localization';
 
 const UserContext = React.createContext();
 UserContext.displayName = 'UserContext';

@@ -1,15 +1,14 @@
 import * as React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import QueryClientProvider from 'react-query';
-import QueryClient from 'react-query';
+import { QueryClientProvider, QueryClient } from 'react-query'
 // import { ReactQueryDevtools }  from 'react-query/devtools';
-import  ThemeProvider  from 'theme';
-import  LocaleProvider from 'localization';
-import AuthProvider  from './auth-context';
-import  FirebaseProvider  from './firebase-context';
-import  SnackbarProvider from './snackbar-context';
-import  DialogProvider  from './dialog-context';
-import  UserProvider  from './user-context';
+import { ThemeProvider } from 'theme';
+import { LocaleProvider } from 'localization';
+import { AuthProvider } from './auth-context';
+import { FirebaseProvider } from './firebase-context';
+import { SnackbarProvider } from './snackbar-context';
+import { DialogProvider } from './dialog-context';
+import { UserProvider } from './user-context';
 
 const queryClient = new QueryClient();
 
