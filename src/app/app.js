@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import { useAuth } from 'context/auth-context';
-import { UnathenticatedApp } from './unathenticated-app';
+import { useAuth } from './context/auth-context';
+import { UnathenticatedApp } from '../app/unathenticated-app';
 import { AuthenticatedAppProviders } from 'context';
-import { AuthenticatedApp } from './authenticated-app';
+import { AuthenticatedApp } from '../app/authenticated-app';
 
 function App() {
   const { user } = useAuth();

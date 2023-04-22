@@ -11,7 +11,7 @@ import { useTranslation } from 'translations';
 const commonProps = {
   target: '_blank',
   rel: 'noopener noreferrer',
-  href: 'https://github.com/sitek94/habit-tracker',
+  href: 'https://github.com/Spsuresh/habit-Tracker',
 };
 
 function GithubRepoLink({ variant = 'icon', ...props }) {

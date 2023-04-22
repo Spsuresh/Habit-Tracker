@@ -5,14 +5,13 @@ import 'firebase/database';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_DATABASE_URL,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
-  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
+  apiKey: "AIzaSyA4GsFITjrs1Ni1NxTX2rcQp5dlNwt7Y28",
+  authDomain: "habit-tracker-9886a.firebaseapp.com",
+  projectId: "habit-tracker-9886a",
+  storageBucket: "habit-tracker-9886a.appspot.com",
+  messagingSenderId: "607011550353",
+  appId: "1:607011550353:web:6677fca44f1c812ca67b30",
+  measurementId: "G-DRCFJXDVNN"
 };
 
 if (!firebase.apps.length) {
