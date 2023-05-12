@@ -1,5 +1,5 @@
-import { useLocale } from '../localization/use-locale';
-import { translations } from './translations';
+import  useLocale from '../localization/use-locale';
+import { translations } from '../translations';
 
 export function useTranslation(source = translations) {
   const { code } = useLocale();
@@ -13,3 +13,4 @@ export function useTranslation(source = translations) {
     return source[key][code] ?? source[key].en;
   }
 }
+export default useTranslation;

@@ -20,4 +20,4 @@ function SignInAsGuestButton({ label, ...props }) {
   )
 }
 
-export { SignInAsGuestButton }
+export default SignInAsGuestButton;

@@ -1,4 +1,4 @@
-import { COMPLETED } from 'data/constants';
+import { COMPLETED } from '../data/constants';
 
 /**
  * Checkmark object

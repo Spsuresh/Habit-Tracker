@@ -1,8 +1,8 @@
 import { Box } from '@material-ui/core';
-import { HabitList } from 'components/habit-list';
-import { FullPageSpinner } from 'components/lib';
-import { useHabitsQuery } from 'api/habits';
-import { NoHabitsScreen } from 'screens/no-habits';
+import { HabitList } from '../components/habit-list';
+import { FullPageSpinner } from '../components/lib';
+import { useHabitsQuery } from '../api/habits';
+import { NoHabitsScreen } from '../screens/no-habits';
 
 /**
  * Manage Habits Screen
@@ -31,4 +31,4 @@ function ManageHabitsScreen() {
   );
 }
 
-export { ManageHabitsScreen };
+export default ManageHabitsScreen;

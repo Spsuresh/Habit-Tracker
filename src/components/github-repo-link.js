@@ -43,4 +43,4 @@ GithubRepoLink.propTypes = {
   variant: PropTypes.oneOf(['icon', 'item']),
 };
 
-export { GithubRepoLink };
+export default GithubRepoLink;

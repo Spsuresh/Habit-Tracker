@@ -1,2 +1,2 @@
-export { translations } from './translations';
-export { useTranslation } from './use-translation';
+export { translations } from '../translations';
+export { useTranslation } from '../translations/use-translation';

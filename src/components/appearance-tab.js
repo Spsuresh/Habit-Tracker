@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { isDefaultTheme, colors } from 'theme';
+import { isDefaultTheme, colors } from '../theme';
 import {
   Box,
   Button,
@@ -288,4 +288,4 @@ function AppearanceTab({ disabled }) {
   );
 }
 
-export { AppearanceTab };
+export default AppearanceTab;

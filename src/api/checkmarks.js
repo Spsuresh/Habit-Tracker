@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient, useQuery } from 'react-query';
-import { useFirebase } from 'context/firebase-context';
-import { useAuth } from 'context/auth-context';
-import { EMPTY } from 'data/constants';
+import { useFirebase } from '../context/firebase-context';
+import { useAuth } from '../context/auth-context';
+import { EMPTY } from '../data/constants';
 
 /**
  * Returns a function that adds a checkmark

@@ -5,8 +5,8 @@ import {
   CheckBoxOutlineBlank as EmptyCheckmarkIcon,
   IndeterminateCheckBox as FailedCheckmarkIcon,
 } from '@material-ui/icons';
-import { useUpdateCheckmarkInDbMutate } from 'api/checkmarks';
-import { COMPLETED, EMPTY, FAILED } from 'data/constants';
+import { useUpdateCheckmarkInDbMutate } from '../api/checkmarks';
+import { COMPLETED, EMPTY, FAILED } from '../data/constants';
 import { debounce } from 'lodash';
 
 const variants = {
@@ -85,4 +85,4 @@ Checkmark.propTypes = {
   // disabled: PropTypes.bool,
 };
 
-export { Checkmark };
+export default Checkmark;

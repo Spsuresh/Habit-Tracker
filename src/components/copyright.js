@@ -9,4 +9,4 @@ function Copyright(props) {
   );
 }
 
-export { Copyright };
+export default Copyright;

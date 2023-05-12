@@ -34,4 +34,4 @@ function Footer({ children }) {
   );
 }
 
-export { Footer };
+export default Footer;

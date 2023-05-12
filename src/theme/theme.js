@@ -1,5 +1,5 @@
 import { createMuiTheme } from '@material-ui/core';
-import { getColor } from './colors';
+import { getColor } from '../theme/colors';
 
 // Get constant variables
 const defaultPrimaryColor = getColor(process.env.REACT_APP_THEME_PRIMARY_COLOR);

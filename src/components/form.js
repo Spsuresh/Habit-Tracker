@@ -9,7 +9,7 @@ import {
   Link,
   useTheme,
 } from '@material-ui/core';
-import { useTranslation } from 'translations';
+import { useTranslation } from '../translations';
 
 /**
  * Main form wrapper component

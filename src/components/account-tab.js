@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { DeleteForever as DeleteForeverIcon } from '@material-ui/icons';
-import { useDeleteUserData } from 'api/user-data';
-import { useAuth } from 'context/auth-context';
-import { useDialog } from 'context/dialog-context';
-import { useSnackbar } from 'context/snackbar-context';
-import { useTranslation } from 'translations';
+import { useDeleteUserData } from '../api/user-data';
+import { useAuth } from '../context/auth-context';
+import { useDialog } from '../context/dialog-context';
+import { useSnackbar } from '../context/snackbar-context';
+import { useTranslation } from '../translations';
 import {
   Button,
   Hidden,
@@ -76,4 +76,4 @@ function AccountTab({ disabled }) {
   );
 }
 
-export { AccountTab };
+export default AccountTab;

@@ -1,6 +1,6 @@
 import { yupResolver } from '@hookform/resolvers/yup';
 import { TextField } from '@material-ui/core';
-import { AuthProviderList } from 'components/auth-providers-list';
+import { AuthProviderList } from '../components/auth-providers-list';
 import {
   Form,
   FormBody,
@@ -12,13 +12,13 @@ import {
   FormListContainer,
   FormPrimaryText,
   FormSecondaryText,
-} from 'components/form';
-import { useAuth } from 'context/auth-context';
-import { signInSchema } from 'data/constraints';
-import { useTranslation, translations } from 'translations';
-import { useForm } from 'react-hook-form';
-import { useAsync } from 'utils/hooks';
-import { SignInAsGuestButton } from 'components/sign-in-as-guest-button';
+} from '../components/form';
+import { useAuth } from '../context/auth-context';
+import { signInSchema } from '../data/constraints';
+import { useTranslation, translations } from '../translations';
+import { useForm } from '/react-hook-form';
+import { useAsync } from '../utils/hooks';
+import { SignInAsGuestButton } from '../components/sign-in-as-guest-button';
 
 function SignInScreen() {
   const t = useTranslation(translations);
@@ -119,4 +119,4 @@ function SignInScreen() {
   );
 }
 
-export { SignInScreen };
+export default SignInScreen;

@@ -182,4 +182,4 @@ function PieChart({ data }) {
   );
 }
 
-export { PerformancePanel };
+export default PerformancePanel;

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { useFirebase } from './firebase-context';
-import { useAsync } from 'utils/hooks';
-import { FullPageSpinner, FullPageErrorFallback } from 'components/lib';
+import { useFirebase } from '../context/firebase-context';
+import { useAsync } from '../utils/hooks';
+import { FullPageSpinner, FullPageErrorFallback } from '../components/lib';
 import { useNavigate } from 'react-router';
 import { useTheme } from '@material-ui/core';
 

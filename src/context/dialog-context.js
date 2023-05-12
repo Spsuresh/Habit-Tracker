@@ -10,7 +10,7 @@ import {
   DialogTitle,
 } from '@material-ui/core';
 
-import { useTranslation } from 'translations';
+import { useTranslation } from '../translations';
 
 // Translations
 const translations = {

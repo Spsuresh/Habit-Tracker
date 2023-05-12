@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { alpha, Box, hexToRgb, useTheme } from '@material-ui/core';
-import hero from 'images/hero.jpg';
+import hero from '../images/hero.jpg';
 
 /**
  * Layout with background image
@@ -52,4 +52,4 @@ function BackgroundImage({ children }) {
   );
 }
 
-export { Layout };
+export default Layout;

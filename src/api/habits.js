@@ -1,5 +1,5 @@
-import { useAuth } from 'context/auth-context';
-import { useFirebase } from 'context/firebase-context';
+import { useAuth } from '../context/auth-context';
+import { useFirebase } from '../context/firebase-context';
 import { useQueryClient, useQuery, useMutation } from 'react-query';
 
 /**

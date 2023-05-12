@@ -1,4 +1,4 @@
-import { COMPLETED, FAILED } from 'data/constants';
+import { COMPLETED, FAILED } from '../data/constants';
 
 /*
 The data that comes from database is an object where

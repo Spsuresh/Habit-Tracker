@@ -1,10 +1,10 @@
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from 'react-hook-form';
 import { TextField } from '@material-ui/core';
-import { useAuth } from 'context/auth-context';
-import { useSnackbar } from 'context/snackbar-context';
-import { resetPasswordSchema } from 'data/constraints';
-import { useAsync } from 'utils/hooks';
+import { useAuth } from '../context/auth-context';
+import { useSnackbar } from '../context/snackbar-context';
+import { resetPasswordSchema } from '../data/constraints';
+import { useAsync } from '../utils/hooks';
 import {
   Form,
   FormBody,
@@ -14,8 +14,8 @@ import {
   FormLink,
   FormPrimaryText,
   FormSecondaryText,
-} from 'components/form';
-import { useTranslation } from 'translations';
+} from '../components/form';
+import { useTranslation } from '../translations';
 
 /**
  * Reset Password Screen
@@ -78,4 +78,4 @@ function ResetPasswordScreen() {
   );
 }
 
-export { ResetPasswordScreen };
+export default ResetPasswordScreen;

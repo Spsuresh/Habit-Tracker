@@ -2,7 +2,7 @@ import * as React from 'react';
 import clsx from 'clsx';
 import { TextField, makeStyles } from '@material-ui/core';
 import { StaticDatePicker, PickersDay } from '@material-ui/lab';
-import { useLocale } from 'localization';
+import { useLocale } from '../localization';
 import {
   add,
   endOfWeek,
@@ -102,4 +102,4 @@ function WeekPicker({ selectedDate, onChange }) {
   );
 }
 
-export { WeekPicker };
+export default WeekPicker;

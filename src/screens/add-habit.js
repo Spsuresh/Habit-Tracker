@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { habitSchema } from 'data/constraints';
+import { habitSchema } from '../data/constraints';
 import { TextField } from '@material-ui/core';
-import { CheckboxGroup } from 'components/checkbox-group';
-import { FullPageSpinner } from 'components/lib';
-import { useSnackbar } from 'context/snackbar-context';
-import { useAddHabitMutation, useHabitsQuery } from 'api/habits';
+import { CheckboxGroup } from '../components/checkbox-group';
+import { FullPageSpinner } from '../components/lib';
+import { useSnackbar } from '../context/snackbar-context';
+import { useAddHabitMutation, useHabitsQuery } from '../api/habits';
 import {
   Form,
   FormBody,
@@ -14,9 +14,9 @@ import {
   FormErrorText,
   FormHeader,
   FormPrimaryText,
-} from 'components/form';
-import { useLocale } from 'localization';
-import { useTranslation } from 'translations';
+} from '../components/form';
+import { useLocale } from '../localization';
+import { useTranslation } from '../translations';
 
 // Initial habit
 const initialHabit = {
@@ -118,4 +118,4 @@ function AddHabitScreen() {
   );
 }
 
-export { AddHabitScreen };
+export default AddHabitScreen;

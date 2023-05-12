@@ -11,14 +11,14 @@ import {
   FormListContainer,
   FormPrimaryText,
   FormSecondaryText,
-} from 'components/form';
-import { useAuth } from 'context/auth-context';
-import { signUpSchema } from 'data/constraints';
+} from '../components/form';
+import { useAuth } from '../context/auth-context';
+import { signUpSchema } from '../data/constraints';
 import { useForm } from 'react-hook-form';
-import { useAsync } from 'utils/hooks';
-import { AuthProviderList } from 'components/auth-providers-list';
-import { useTranslation } from 'translations';
-import { SignInAsGuestButton } from 'components/sign-in-as-guest-button';
+import { useAsync } from '../utils/hooks';
+import { AuthProviderList } from '../components/auth-providers-list';
+import { useTranslation } from '../translations';
+import { SignInAsGuestButton } from '../components/sign-in-as-guest-button';
 
 function SignUpScreen() {
   const t = useTranslation();
@@ -125,4 +125,4 @@ function SignUpScreen() {
   );
 }
 
-export { SignUpScreen };
+export default SignUpScreen;

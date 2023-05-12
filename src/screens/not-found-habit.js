@@ -1,8 +1,8 @@
 import { Link as RouterLink } from 'react-router-dom';
 import { Fab, Box, Typography } from '@material-ui/core';
 import { List as ListIcon } from '@material-ui/icons';
-import { ReactComponent as TowingSvg } from 'images/towing.svg';
-import { useTranslation } from 'translations';
+import { ReactComponent as TowingSvg } from '../images/towing.svg';
+import { useTranslation } from '../translations';
 
 /**
  * Not Found Habit Screen
@@ -63,4 +63,4 @@ function NotFoundHabitScreen() {
   );
 }
 
-export { NotFoundHabitScreen };
+export default NotFoundHabitScreen;

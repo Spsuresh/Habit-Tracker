@@ -1,5 +1,5 @@
 import { eachDayOfInterval, format, getDay, parseISO, sub } from 'date-fns';
-import { COMPLETED, FAILED } from './constants';
+import { COMPLETED, FAILED } from '../data/constants';
 
 const habits = [
   {

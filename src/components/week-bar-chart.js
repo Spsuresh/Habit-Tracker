@@ -3,8 +3,8 @@ import { ResponsiveBar } from '@nivo/bar';
 import { useTheme } from '@material-ui/core';
 import { countBy } from 'lodash';
 import { format, parseISO } from 'date-fns';
-import { COMPLETED, FAILED } from 'data/constants';
-import { useLocale } from 'localization';
+import { COMPLETED, FAILED } from '../data/constants';
+import { useLocale } from '../localization';
 
 function WeekBarChart({ checkmarks, dates, goal }) {
   // Style
@@ -108,4 +108,4 @@ function WeekBarChart({ checkmarks, dates, goal }) {
   );
 }
 
-export { WeekBarChart };
+export default WeekBarChart;

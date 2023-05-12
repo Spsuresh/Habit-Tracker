@@ -4,7 +4,7 @@ import {
   CssBaseline,
   MuiThemeProvider,
 } from '@material-ui/core';
-import { createDefaultTheme, defaultTheme } from './theme';
+import { createDefaultTheme, defaultTheme } from '../theme';
 
 /**
  * Theme provider
@@ -51,4 +51,4 @@ function ThemeProvider({ children }) {
   );
 }
 
-export { ThemeProvider };
+export default ThemeProvider;

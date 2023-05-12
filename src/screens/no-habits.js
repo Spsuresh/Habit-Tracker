@@ -1,8 +1,8 @@
 import { Add as AddIcon } from '@material-ui/icons';
-import { ReactComponent as EmptyBox } from 'images/empty-box.svg';
+import { ReactComponent as EmptyBox } from '../images/empty-box.svg';
 import { Link as RouterLink } from 'react-router-dom';
 import { Fab, Box, Typography } from '@material-ui/core';
-import { useTranslation } from 'translations';
+import { useTranslation } from '../translations';
 
 /**
  * No Habits Screen
@@ -69,4 +69,4 @@ function NoHabitsScreen() {
   );
 }
 
-export { NoHabitsScreen };
+export default NoHabitsScreen;

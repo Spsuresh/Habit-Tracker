@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useUser } from 'context/user-context';
+import { useUser } from '../context/user-context';
 import {
   Box,
   FormControl,
@@ -103,4 +103,4 @@ function PerformanceTab() {
   );
 }
 
-export { PerformanceTab };
+export default PerformanceTab;

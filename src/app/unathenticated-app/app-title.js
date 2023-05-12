@@ -20,4 +20,4 @@ function AppTitle() {
   );
 }
 
-export { AppTitle };
+export default AppTitle ;

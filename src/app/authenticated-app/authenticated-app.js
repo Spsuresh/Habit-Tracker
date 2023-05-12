@@ -11,22 +11,22 @@ import {
   Settings as SettingsIcon,
 } from '@material-ui/icons';
 
-import * as guestData from 'data/guest';
+import guestData from '../data/guest';
 
-import { AddHabitScreen } from 'screens/add-habit';
-import { DashboardScreen } from 'screens/dashboard';
-import { EditHabitScreen } from 'screens/edit-habit';
-import { ManageHabitsScreen } from 'screens/manage-habits';
-import { NotFoundScreen } from 'screens/not-found';
-import { UserSettingsScreen } from 'screens/user-settings';
+import { AddHabitScreen } from '../screens/add-habit';
+import { DashboardScreen } from '../screens/dashboard';
+import { EditHabitScreen } from '../screens/edit-habit';
+import { ManageHabitsScreen } from '../screens/manage-habits';
+import { NotFoundScreen } from '../screens/not-found';
+import { UserSettingsScreen } from '../screens/user-settings';
 
-import { FullPageErrorFallback, ErrorFallback } from 'components/lib';
-import { LocaleSelect } from 'components/locale-select';
-import { GithubRepoLink } from 'components/github-repo-link';
+import { FullPageErrorFallback, ErrorFallback } from '../components/lib';
+import { LocaleSelect } from '../components/locale-select';
+import { GithubRepoLink } from '../components/github-repo-link';
 
-import { useTranslation } from 'translations';
-import { useAuth } from 'context/auth-context';
-import { useDialog } from 'context/dialog-context';
+import { useTranslation } from './translations';
+import { useAuth } from '../context/auth-context';
+import { useDialog } from '../context/dialog-context';
 import {
   useUpdateLocaleCode,
   useUpdateUserData,
@@ -173,4 +173,4 @@ function AuthenticatedApp() {
   );
 }
 
-export { AuthenticatedApp };
+export default AuthenticatedApp;

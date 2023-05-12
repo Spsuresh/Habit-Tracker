@@ -13,4 +13,4 @@ function Layout({ children }) {
   );
 }
 
-export { Layout };
+export default Layout;

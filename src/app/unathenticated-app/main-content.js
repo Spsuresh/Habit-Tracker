@@ -21,4 +21,4 @@ function MainContent({ children }) {
   );
 }
 
-export { MainContent };
+export default MainContent;

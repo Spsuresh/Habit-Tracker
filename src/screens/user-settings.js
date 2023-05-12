@@ -1,15 +1,15 @@
 import * as React from 'react';
 import SwipeableViews from 'react-swipeable-views';
 import { Box, Paper, Tab, Tabs } from '@material-ui/core';
-import { AccountTab } from 'components/account-tab';
-import { AppearanceTab } from 'components/appearance-tab';
-import { PerformanceTab } from 'components/performance-tab';
+import { AccountTab } from '../components/account-tab';
+import { AppearanceTab } from '../components/appearance-tab';
+import { PerformanceTab } from '../components/performance-tab';
 import {
   AccountCircle as AccountCircleIcon,
   Equalizer as EqualizerIcon,
   Palette as PaletteIcon,
 } from '@material-ui/icons';
-import { useTranslation } from 'translations';
+import { useTranslation } from '../translations';
 
 // Translations
 const translations = {

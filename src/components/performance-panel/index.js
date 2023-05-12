@@ -1,1 +1,1 @@
-export { PerformancePanel } from './performance-panel';
+export { PerformancePanel } from '../performance-panel/performance-panel';

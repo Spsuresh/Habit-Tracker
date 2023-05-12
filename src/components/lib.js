@@ -1,5 +1,5 @@
 import { Box, CircularProgress, Typography } from '@material-ui/core';
-import { ReactComponent as BugFixingSvg } from 'images/bug-fixing.svg';
+import { ReactComponent as BugFixingSvg } from '../images/bug-fixing.svg';
 import PropTypes from 'prop-types';
 
 function ErrorMessage({ error, ...sx }) {

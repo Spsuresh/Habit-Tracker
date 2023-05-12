@@ -54,4 +54,4 @@ function LocaleProvider({ children }) {
   );
 }
 
-export { LocaleProvider };
+export default LocaleProvider;

@@ -7,7 +7,7 @@ import {
   ThemeProvider,
   useTheme,
 } from '@material-ui/core/styles';
-import authProviders from 'data/auth-providers';
+import authProviders from '../data/auth-providers';
 
 const useStyles = makeStyles((theme) => ({
   // Button

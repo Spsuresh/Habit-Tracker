@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-import { useAuth } from './context/auth-context';
+import { useAuth } from '../context/auth-context';
 import { UnathenticatedApp } from '../app/unathenticated-app';
-import { AuthenticatedAppProviders } from 'context';
+import { AuthenticatedAppProviders } from '../context';
 import { AuthenticatedApp } from '../app/authenticated-app';
 
 function App() {
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export { App };
+export default App;

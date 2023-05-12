@@ -3,12 +3,12 @@ import { useForm } from 'react-hook-form';
 import { useNavigate, useParams } from 'react-router';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { TextField } from '@material-ui/core';
-import { CheckboxGroup } from 'components/checkbox-group';
-import { FullPageSpinner } from 'components/lib';
-import { useSnackbar } from 'context/snackbar-context';
-import { habitSchema } from 'data/constraints';
-import { useHabitQuery, useUpdateHabitMutation } from 'api/habits';
-import { useLocale } from 'localization';
+import { CheckboxGroup } from '../components/checkbox-group';
+import { FullPageSpinner } from '../components/lib';
+import { useSnackbar } from '../context/snackbar-context';
+import { habitSchema } from '../data/constraints';
+import { useHabitQuery, useUpdateHabitMutation } from '../api/habits';
+import { useLocale } from '../localization';
 import { NotFoundHabitScreen } from './not-found-habit';
 import {
   Form,
@@ -18,7 +18,7 @@ import {
   FormHeader,
   FormPrimaryText,
 } from 'components/form';
-import { useTranslation } from 'translations';
+import { useTranslation } from '../translations';
 
 // Default habit values
 const defaultHabit = {
@@ -143,4 +143,4 @@ function EditHabitScreen() {
   );
 }
 
-export { EditHabitScreen };
+export default EditHabitScreen;

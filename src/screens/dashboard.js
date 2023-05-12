@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { useCheckmarksQuery } from 'api/checkmarks';
-import { useHabitsQuery } from 'api/habits';
-import { NoHabitsScreen } from 'screens/no-habits';
-import { useUser } from 'context/user-context';
-import { useLocale } from 'localization';
-import { WeekBarChart } from 'components/week-bar-chart';
-import { HabitsTable } from 'components/habits-table';
-import { FullPageErrorFallback, FullPageSpinner } from 'components/lib';
-import { PerformancePanel } from 'components/performance-panel';
-import { WeekPicker } from 'components/week-picker';
+import { useCheckmarksQuery } from '../api/checkmarks';
+import { useHabitsQuery } from '../api/habits';
+import { NoHabitsScreen } from '../screens/no-habits';
+import { useUser } from '../context/user-context';
+import { useLocale } from '../localization';
+import { WeekBarChart } from '../components/week-bar-chart';
+import { HabitsTable } from '../components/habits-table';
+import { FullPageErrorFallback, FullPageSpinner } from '../components/lib';
+import { PerformancePanel } from '../components/performance-panel';
+import { WeekPicker } from '../components/week-picker';
 import { Box, Container, Grid, Hidden, Paper } from '@material-ui/core';
 import {
   eachDayOfInterval,
@@ -224,4 +224,4 @@ function SmallPaper({ children }) {
   );
 }
 
-export { DashboardScreen };
+export default DashboardScreen;

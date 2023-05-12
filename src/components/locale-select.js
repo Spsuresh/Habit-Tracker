@@ -1,6 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { locales, useLocale } from 'localization';
+import { locales, useLocale } from '../localization';
 import {
   Menu,
   MenuItem,
@@ -10,8 +10,8 @@ import {
   IconButton,
   Tooltip,
 } from '@material-ui/core';
-import { useTranslation } from 'translations';
-import { MobileMenuItem } from 'components/mobile-menu';
+import { useTranslation } from '../translations';
+import { MobileMenuItem } from '../components/mobile-menu';
 import TranslateIcon from '@material-ui/icons/Translate';
 
 function LocaleSelect({ variant = 'icon', onLocaleClick = () => {} }) {
@@ -91,4 +91,4 @@ LocaleSelect.propTypes = {
   onLocaleClick: PropTypes.func,
 };
 
-export { LocaleSelect };
+export default LocaleSelect;

@@ -39,4 +39,4 @@ function Navbar({ children }) {
   );
 }
 
-export { Navbar };
+export default Navbar;

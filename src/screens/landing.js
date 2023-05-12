@@ -8,8 +8,8 @@ import {
 } from '@material-ui/core';
 import { Link as RouterLink } from 'react-router-dom';
 import { FaQuoteLeft } from 'react-icons/fa';
-import { useTranslation } from 'translations';
-import hero from 'images/hero.jpg';
+import { useTranslation } from '../translations';
+import hero from '../images/hero.jpg';
 
 function LandingScreen() {
   const t = useTranslation();
@@ -125,4 +125,4 @@ function GetStartedButton(props) {
   );
 }
 
-export { LandingScreen };
+export default LandingScreen;
